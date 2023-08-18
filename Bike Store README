@@ -1,0 +1,12 @@
+BIKE STORE
+We have a database with nine tables containing information about a bicycle store´s products, sales, customers, stock, staff, stores, and orders.  The task is to write a query in SQL in order to present the following information in Tableau for the year 2018:
+•	Yearly Revenue (comparison for the 3 years 2016, 2017 and 2018).
+•	Sales by Store
+•	Sales by State
+•	Sales by: Product, category, and brand
+•	Quantities sold
+•	Unique number of orders
+•	Unique Number of customers
+•	Number of repeating customers
+•	Top sales reps
+•	Top customers
