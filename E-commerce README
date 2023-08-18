@@ -1,0 +1,32 @@
+E-commerce README
+SQL & TABLEAU 
+DATABASE LINK: https://www.kaggle.com/datasets/ammaraahmad/us-ecommerce-record-2020
+(Since it is not specified, for this project it is assumed that the sales value is before the discount)
+The database shows detailed information for an online store for the year 2020, after looking at the information in the database in Excel the following goals were set:
+SQL
+1.	Sales by Month.
+2.	Profit by Month.
+3.	Find Profit margin.
+4.	Monthly number of orders.
+5.	Unique number of customers.
+6.	Number and rate of repeating customers.
+7.	Number of products sold each month.
+8.	Monthly average discount.
+9.	Sales by category and by subcategory.
+10.	What are our best segments?
+11.	Top products
+
+After running the above in SQL, I found that some categories have negative profit months so I proceeded to write a query to find:
+1.	Sales, profit, average discount, and profit margin per category and sub-category.
+2.	Products with negative profit
+3.	Worst 15 performing products
+With the queries above, I want to answer the following questions:
+•	What products have a negative profit and what discount was given?
+•	Is the discount the cause of the negative profit products? 
+•	Are there some products that are just not profitable?
+
+After being in sales and project management for more than 10 years I can tell that the discounts given are not normal, the discounts range from 16% to a staggering 80% this is affecting the profit to the point where in some products the discount amount is higher than the total profit.  if these are not strategy discounts then some changes must be made asap. 
+
+TABLEAU
+Create two dashboards and present them in a story, on the first dashboard show the sales general KPIs for the year 2020. The second dashboard shows Profit and Discount KPIs to show stakeholders how discounts are affecting the profit margin.
+https://public.tableau.com/app/profile/juan.felipe.parra6405/viz/EcommerceViz/Ecom
